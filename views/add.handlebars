@@ -18,6 +18,7 @@
 
 <body>
     <div class="container">
+        <a href="/">Home</a>
 	<h1>My HCI Friends</h1>
 
     {{#each friends}}
@@ -25,7 +26,7 @@
 <!--            <img src="http://lorempixel.com/500/500/people" alt="fake friends"> -->
             <img src={{imageURL}} class="img-responsive">
             <a href="#">
-                <h3>{{name}}</h3>
+                <h3 class="nameselected">{{name}}</h3>
             </a>
             <p>{{description}}</p>
         </div>
